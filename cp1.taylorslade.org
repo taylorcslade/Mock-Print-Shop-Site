@@ -1,0 +1,10 @@
+server {
+  listen 80;
+  server_name cp1.taylorslade.org;
+  root /var/www/cp1.taylorslade.org;
+  index index.html;
+  default_type "text/html";
+  location / {
+    try_files $uri $uri/ =404;
+  }
+}
