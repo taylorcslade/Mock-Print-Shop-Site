@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel='stylesheet' href='styles.css'/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
+    
     </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,53 +30,79 @@
         </div>
       </nav>
 
+      <div class = "currencyTitleContainer">
+        <div class = "currencyTitle">
+          <em>Find out how much the print you want is in your currency</em>
+        </div>
+      </div>
+
+      <div id="currencyConverter">
+        <form>
+          <div class = "enterSubmission">
+            <label>Convert USD $</label>
+            <input id="amount" type="text" value="26"></input>
+            <label> to </label>
+            <input id="toInput" type = "text" value="AUD"></input>
+          </div>
+          <div class = "submit">
+            <input id="currencySubmit" type="submit" value="Submit"></input>
+          </div>
+        </form>
+      </div>
+
+
+      <div id="currencyConverterResults">
+      </div>
+
       <div class = "gallery-container">
         <div class="gallery">
           <img src="../images/print1.jpg" alt="Cinque Terre" width="600" height="400">
-          <div class="desc">VENICE PRINT     $26</div>
+          <div class="desc">VENICE PRINT     --USD$26</div>
         </div>
 
         <div class="gallery">
           <img src="../images/print2.jpg" alt="Forest" width="600" height="400">
-          <div class="desc">KORFU GREECE PRINT     $26</div>
+          <div class="desc">KORFU GREECE PRINT     --USD$26</div>
         </div>
 
         <div class="gallery">
             <img src="../images/print3.jpg" alt="Northern Lights" width="600" height="400">
-          <div class="desc">FROM THE SHIP PRINT     $26</div>
+          <div class="desc">FROM THE SHIP PRINT     --USD$26</div>
         </div>
 
         <div class="gallery">
           <a target="_blank" href="img_mountains.jpg">
             <img src="../images/print4.jpg" alt="Mountains" width="600" height="400">
           </a>
-          <div class="desc">OPEN SEA PRINT    $26</div>
+          <div class="desc">OPEN SEA PRINT    --USD$26</div>
         </div>
       </div>
 
       <div class = "gallery-container2">
         <div class="gallery2">
           <img src="../images/print5.jpg" alt="Cinque Terre" width="600" height="400">
-          <div class="desc2">SANTORINI PRINT     $26</div>
+          <div class="desc2">SANTORINI PRINT     --USD$26</div>
         </div>
 
         <div class="gallery2">
           <img src="../images/print6.jpg" alt="Forest" width="600" height="400">
-          <div class="desc2">MONTENEGRO PRINT     $26</div>
+          <div class="desc2">MONTENEGRO PRINT     --USD$26</div>
         </div>
 
         <div class="gallery2">
             <img src="../images/print7.jpg" alt="Northern Lights" width="600" height="400">
-          <div class="desc2">SANTORINI SKY PRINT     $26</div>
+          <div class="desc2">SANTORINI SKY PRINT     --USD$26</div>
         </div>
 
         <div class="gallery2">
           <a target="_blank" href="img_mountains.jpg">
             <img src="../images/print8.jpg" alt="Mountains" width="600" height="400">
           </a>
-          <div class="desc2">BEACH DAY PRINT    $26</div>
+          <div class="desc2">BEACH DAY PRINT    --USD$26</div>
         </div>
       </div>
+
+
 
 
       <div class='footer-container'>
@@ -83,7 +111,8 @@
         </div>
       </div>
 
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+      <script text="type/javascript" src="script.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
