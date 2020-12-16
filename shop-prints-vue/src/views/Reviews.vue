@@ -15,7 +15,7 @@
     <div class="section2">
       Exceptional service. Proofs were clear and easy to read. Shipping was
       fast and exceptionally well done so there was no damage to the prints.
-      Highly recommend this seller! - Calla G.
+      Highly recommend this seller! - Calla H.
     </div>
     <div class="section3">
       Taylor was very timely in both communicating and sending the proof for any edits.

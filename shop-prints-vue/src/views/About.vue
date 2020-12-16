@@ -20,7 +20,7 @@
         <h3>I have travelled to some beautiful places and taking
         pictures is a way for me to remember the beauty of where I once was. All of these
         prints are photos taken by me with love, and adoration for the world around me! I
-        hope you enjoy these prints and have a piece of international heaven in your home.</h3>
+        hope you enjoy these prints and have a piece of international heaven in your home!</h3>
       </div>
     </div>
   </div>

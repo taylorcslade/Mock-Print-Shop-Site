@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="text-container">
-    <h1 class="popularity-text"><strong><em> Find prints based off of their popularity </em></strong></h1>
+    <h1 class="popularity-text"><strong><em> Find prints based off of their popularity: </em></strong></h1>
   </div>
   <div class="pure-menu-horizontal">
     <div class="pure-menu-list">

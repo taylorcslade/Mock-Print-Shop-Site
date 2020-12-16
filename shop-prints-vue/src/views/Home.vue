@@ -16,7 +16,7 @@
       <div class="contact-me-container">
         <div class="contact-me">
           <p>Phone: (700) 000-0000</p>
-          <p>Email: hello@taylorsladephotography.com</p>
+          <p>Email: hello@taylorsphotography.com</p>
         </div>
       </div>
     </div>
